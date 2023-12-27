@@ -33,4 +33,4 @@
 - Бот может принять и записать контактные данные для связи.
 - Если бот не может ответить на вопросы клиента, то можно позвать волонтера.
 
-Авторы проекта  [Черненький Никита](https://github.com/ChernenkiyNikitych4732), [Брюховицкая Светлана](https://github.com/dabich626626), [Панков Марк](https://github.com/markpan07)
+Авторы проекта [Черненький Никита](https://github.com/ChernenkiyNikitych4732), [Брюховицкая Светлана](https://github.com/dabich626626), [Панков Марк](https://github.com/markpan07)
