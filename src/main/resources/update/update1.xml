@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+
+    <changeSet id="1" author="TelegramBotForDevPro-update">
+        <insert catalogName="AST"  schemaName="PUBLIC" tableName="ANIMAL_SHELTER">
+            <column name="ID" valueNumeric="1"/>
+            <column name="DTYPE" value="DSH"/>
+            <column name="NAME" value="Your true friend"/>
+            <column name="ADDRESS" value="Москва"/>
+            <column name="WORK_SCHEDULE" value="24*7"/>
+            <column name="CONTACTS" value="+77777777777"/>
+            <column name="DESCRIPTION" value="Приют с животными"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
